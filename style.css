@@ -1,0 +1,39 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: lightgray;
+    margin:0;
+    width:100%;
+    padding:0;
+}
+
+nav li {
+    list-style: none;
+    padding:20px;
+    color:black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: ;
+}
+
+.active {
+    font-weight: bold;
+    background-color: blue;
+    color:white;
+}
+.active a {
+    color:white;
+}
+
+nav li:hover{
+    background-color:grey;
+}
